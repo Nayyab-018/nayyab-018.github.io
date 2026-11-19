@@ -26,6 +26,15 @@ with row1_c1:
     st.link_button("View Repository", "https://github.com/Nayyab-018/AI-Phishing-Detector")
 
 with row1_c2:
+    st.subheader("🧮 Project Euler Mathematical Programming")
+    st.write(
+        "Algorithmic Python solutions to Project Euler problems emphasizing number theory, combinatorics, "
+        "Sieve of Eratosthenes, and O(1) closed-form mathematical optimization."
+    )
+    st.link_button("View Repository", "https://github.com/Nayyab-018/Project-Euler-Math-Solutions")
+
+row2_c1, row2_c2 = st.columns(2)
+with row2_c1:
     st.subheader("🧠 PyTorch CNN Image Classifier")
     st.write(
         "Custom Convolutional Neural Network built from scratch in PyTorch to classify 70,000 "
@@ -33,8 +42,7 @@ with row1_c2:
     )
     st.link_button("View Repository", "https://github.com/Nayyab-018/PyTorch-CNN-Image-Classifier")
 
-row2_c1, row2_c2 = st.columns(2)
-with row2_c1:
+with row2_c2:
     st.subheader("⚽ AI in Soccer Match Analytics")
     st.write(
         "Zero-dependency trend tracker and Real Madrid ML match predictor built with Pandas, "
@@ -42,13 +50,12 @@ with row2_c1:
     )
     st.link_button("View Repository", "https://github.com/Nayyab-018/AI-in-Soccer-Analysis")
 
-with row2_c2:
-    st.subheader("🐍 Python Mini-Projects & Automation")
-    st.write(
-        "Collection of practical Python automation and logic projects, including a Smart Battery Health "
-        "Charging Assistant and a Cyber-Vault Security Cracker."
-    )
-    st.link_button("View Repository", "https://github.com/Nayyab-018/Python-Mini-Projects")
+st.subheader("🐍 Python Mini-Projects & Automation")
+st.write(
+    "Collection of practical Python automation and logic projects, including a Smart Battery Health "
+    "Charging Assistant and a Cyber-Vault Security Cracker."
+)
+st.link_button("View Repository", "https://github.com/Nayyab-018/Python-Mini-Projects")
 
 st.divider()
 st.header("Academic Excellence (FBISE Islamabad)")
