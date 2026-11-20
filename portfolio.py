@@ -3,14 +3,14 @@ import streamlit as st
 st.set_page_config(page_title="Nayyab Faisal | Portfolio", page_icon="🎓", layout="wide")
 
 st.title("Nayyab Faisal")
-st.subheader("Aspiring CS, AI & Engineering Undergraduate | IBM Certified in AI, ML & Cybersecurity")
+st.subheader("Aspiring CS, AI & Engineering Undergraduate | IBM & HackerRank Certified")
 st.write("Building practical Machine Learning, Cybersecurity, and Cyber-Physical Systems from Wah Cantt, Pakistan.")
 
 col1, col2 = st.columns(2)
 with col1:
     st.link_button("🚀 Launch Live AI Phishing App", "https://streamlit.app", type="primary")
 with col2:
-    st.link_button("💻 GitHub Profile", "https://github.com/Nayyab-018")
+    st.link_button("💻 GitHub Profile", "https://github.com")
 
 st.divider()
 st.header("Featured Projects")
@@ -23,7 +23,7 @@ with row1_c1:
         "3D alert circuit (Red/Green LEDs + Piezo Buzzer) and a live Streamlit web app."
     )
     st.link_button("Live Demo", "https://streamlit.app")
-    st.link_button("View Repository", "https://github.com/Nayyab-018/AI-Phishing-Detector")
+    st.link_button("View Repository", "https://github.com/AI-Phishing-Detector")
 
 with row1_c2:
     st.subheader("🧮 Project Euler Mathematical Programming")
@@ -31,7 +31,7 @@ with row1_c2:
         "Algorithmic Python solutions to Project Euler problems emphasizing number theory, combinatorics, "
         "Sieve of Eratosthenes, and O(1) closed-form mathematical optimization."
     )
-    st.link_button("View Repository", "https://github.com/Nayyab-018/Project-Euler-Math-Solutions")
+    st.link_button("View Repository", "https://github.com/Project-Euler-Math-Solutions")
 
 row2_c1, row2_c2 = st.columns(2)
 with row2_c1:
@@ -40,7 +40,7 @@ with row2_c1:
         "Custom Convolutional Neural Network built from scratch in PyTorch to classify 70,000 "
         "Fashion-MNIST images across 10 apparel categories."
     )
-    st.link_button("View Repository", "https://github.com/Nayyab-018/PyTorch-CNN-Image-Classifier")
+    st.link_button("View Repository", "https://github.com/PyTorch-CNN-Image-Classifier")
 
 with row2_c2:
     st.subheader("⚽ AI in Soccer Match Analytics")
@@ -48,22 +48,24 @@ with row2_c2:
         "Zero-dependency trend tracker and Real Madrid ML match predictor built with Pandas, "
         "Matplotlib, and Scikit-Learn using Expected Goals (xG) and rolling metrics."
     )
-    st.link_button("View Repository", "https://github.com/Nayyab-018/AI-in-Soccer-Analysis")
+    st.link_button("View Repository", "https://github.com/AI-in-Soccer-Analysis")
 
 st.subheader("🐍 Python Mini-Projects & Automation")
 st.write(
     "Collection of practical Python automation and logic projects, including a Smart Battery Health "
     "Charging Assistant and a Cyber-Vault Security Cracker."
 )
-st.link_button("View Repository", "https://github.com/Nayyab-018/Python-Mini-Projects")
+st.link_button("View Repository", "https://github.com/Python-Mini-Projects")
 
 st.divider()
 st.header("Academic Excellence (FBISE Islamabad)")
 st.info("**Higher Secondary School Certificate (Pre-Engineering):** Grade A1 — 894 / 1100 (81.27%)")
 st.info("**Secondary School Certificate (Science Group):** Grade A1 — 1001 / 1100 (91.0%) | **150 / 150 in Computer Science**")
 
-st.header("Verified IBM SkillsBuild Credentials (2026)")
+st.header("Verified Technical & Coding Credentials (2026)")
 st.markdown("""
+- **Problem Solving (Basic) Skill Certification** — HackerRank Verified (`ID: 2132C26CA07A` | [Verify Certificate](https://www.hackerrank.com/certificates/2132c26ca07a))
+- **Python (Basic) Skill Certification** — HackerRank Verified (`ID: FCB6EE2D3152` | [Verify Certificate](https://www.hackerrank.com/certificates/fcb6ee2d3152))
 - **Getting Started with Generative AI** — IBM SkillsBuild (Credly Verified)
 - **Cybersecurity Fundamentals** — IBM SkillsBuild (Credly Verified)
 - **Enterprise Design Thinking Practitioner** — IBM SkillsBuild (Credly Verified)
